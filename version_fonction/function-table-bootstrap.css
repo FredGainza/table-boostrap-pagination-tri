@@ -1,0 +1,97 @@
+body {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+}
+
+/************ Partie Select ************/
+.col-form-label-lg {
+    padding-top: 0 !important;
+}
+.custom-select {
+    height: 2.2rem !important;
+    padding: 0rem 1.5rem 0 .5rem;
+}
+.col-form-label-lg {
+    padding-bottom: 0 !important;
+    padding-right: .75rem !important;
+    font-size: 1.1rem !important;
+}
+.form-select {
+    margin-bottom: 0 !important;
+}
+.form-select-up {
+    margin-bottom: .5rem !important;
+}
+.pady-0-1{
+    padding-top: .1rem !important;
+    padding-bottom: .1rem !important;
+}
+
+/************ Partie Pagination ************/
+.pagination>li>a {
+    background-color: white;
+    color: #181a1b !important;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #1f2428 !important;
+    background-color: #eee !important;
+    border-color: #ddd !important;
+}
+.pagination>.active>a {
+    color: white !important;
+    background-color: #1f2428 !important;
+    border: solid 1px #1f2428 !important;
+}
+.pagination>.active>a:hover {
+    color: #f0f0f0 !important;
+    background-color: #1f2428de !important;
+    border: solid 1px #1f2428e8 !important;
+}
+.page-item.disabled a {
+    background-color: #eeededdb !important;
+}
+
+/************ Partie Tableau ************/
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table > thead > tr > th {
+    white-space: nowrap !important; 
+}
+th > a {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+th {
+    background-color: #242424ed;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    padding: 1rem;
+}
+td {
+    text-align: left;
+    width: auto;
+    padding: 1rem;;
+    background-color: #fcfcfc !important;
+}
+td p {
+    margin-bottom: 0 !important;
+}
+tr > .border-bot{border-bottom: 1px solid #bfbfbf !important;}
+
+/************ Partie Tri ************/
+.color-darky {
+    color: #292b2c
+}
+tr .select_col {
+    background-color: #4f6278ed !important;
+}
