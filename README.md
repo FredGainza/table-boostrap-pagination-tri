@@ -15,7 +15,7 @@ Avec une pagination automatique, le choix de l'affichage, et la possibilité de 
 
 Un fichier d'exemple entièrement commenté est également présent.
 
-### Pré-requis
+## Pré-requis
 
 L'utilisation de ce script nécessite :
 - Bootstrap;
@@ -33,7 +33,7 @@ Une bdd de 1500 entrées est fournie dans le dossier "test" pour vos tests;
 - Pour la version fonction:
     * Enregistrer le fichier "function-table-boostrap.php" dans votre projet
     * Faire un appel de ce fichier dans votre fichie de travail
-    * Appeler la fonction ('tableBootstrap()').
+    * Appeler la fonction (`tableBootstrap()`).
     Si vous gardez les valeurs par défaut, il vous suffit simplement d'indiquer le nom de la database et de la table dans la fonction :
     ```php
         tableBootstrap($dbname, $table,);
