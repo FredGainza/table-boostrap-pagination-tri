@@ -1,6 +1,6 @@
 # Table Bootstrap pour affichage bdd avec pagination et tri
 
-[![badgen](https://badgen.net/badge/KoPaTiK/Agency/cyan)](https://badgen.net)
+[![shields](https://img.shields.io/badge/KoPaTiK-Agency-blue)](https://shields.io/)
 
 Création d'une table bootstrap pour afficher l'extraction des données d'une table.  
 Avec une pagination automatique, le choix de l'affichage, et la possibilité de tri croissant et décroissant sur chacune des colonnes.
