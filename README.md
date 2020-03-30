@@ -1,6 +1,6 @@
 # Table Bootstrap pour affichage bdd avec pagination et tri
 
-[![badgen](https://badgen.net/builder#badge/KoPaTiK/Agency/red?icon=star)](https://badgen.net) [![shields](https://img.shields.io/badge/KoPaTiK-Agency-green?style=flat&logo=ReverbNation)](https://shields.io/)
+[![badgen](https://badgen.net/badge/KoPaTiK/Agency/cyan)](https://badgen.net)
 
 Création d'une table bootstrap pour afficher l'extraction des données d'une table.  
 Avec une pagination automatique, le choix de l'affichage, et la possibilité de tri croissant et décroissant sur chacune des colonnes.
@@ -32,12 +32,14 @@ Une bdd de 1500 entrées est fournie dans le dossier "test".
 
 Pour la version html:
 
-* Mettre les valeurs souhaitées dans le fichier "html-table-bootstrap.php" et copier-coller l'ensemble du code.
-* Pour la version fonction:
-  * Enregistrer le fichier "function-table-boostrap.php" dans votre projet
-  * Faire un appel de ce fichier dans votre fichie de travail
-  * Appeler la fonction `tableBootstrap()`.  
-  Si vous gardez les valeurs par défaut, il vous suffit simplement d'indiquer le nom de la database et de la table dans la fonction :
+* Mettre les valeurs souhaitées dans le fichier "html-table-bootstrap.php" et copier-coller l'ensemble du code
+
+Pour la version fonction:
+
+* Enregistrer le fichier "function-table-boostrap.php" dans votre projet
+* Faire un appel de ce fichier dans votre fichie de travail
+* Appeler la fonction `tableBootstrap()`.  
+Si vous gardez les valeurs par défaut, il vous suffit simplement d'indiquer le nom de la database et de la table dans la fonction :
 
 ```php
 tableBootstrap($dbname, $table,);
@@ -49,4 +51,4 @@ tableBootstrap($dbname, $table,);
 
 ## License
 
-Ce projet est sous licence ``exemple: GNU General Public License v3.0`` - voir le fichier [LICENSE.md](LICENSE) pour plus d'informations
+Ce projet est sous licence ``exemple: GNU General Public License v3.0`` - voir le fichier [LICENSE](LICENSE) pour plus d'informations
