@@ -11,8 +11,8 @@ Avec une pagination automatique, le choix de l'affichage, et la possibilité de 
 
 2 versions sont disponibles, au choix :
 
-* une version html où il faut renseigner les valeurs des différentes variables;
-* une fonction à insérer directement dans votre code à l'endroit souhaité;
+* une **version html** où il faut renseigner les valeurs des différentes variables;
+* une **fonction** à insérer directement dans votre code à l'endroit souhaité;
 
 Un fichier d'exemple entièrement commenté est également présent.
 
@@ -30,11 +30,11 @@ Une bdd de 1500 entrées est fournie dans le dossier "test".
 
 ## Démarrage
 
-Pour la version html:
+Pour la **version html**:
 
 * Mettre les valeurs souhaitées dans le fichier "html-table-bootstrap.php" et copier-coller l'ensemble du code
 
-Pour la version fonction:
+Pour la **version fonction**:
 
 * Enregistrer le fichier "function-table-boostrap.php" dans votre projet
 * Faire un appel de ce fichier dans votre fichie de travail
