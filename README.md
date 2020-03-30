@@ -5,9 +5,9 @@
 Création d'une table bootstrap pour afficher l'extraction des données d'une table.  
 Avec une pagination automatique, le choix de l'affichage, et la possibilité de tri croissant et décroissant sur chacune des colonnes.
 
-![Exemple de table](https://www.fgainza.fr/img/divers/pagination-github.jpg "Exemple de table obtenue")
+![Exemple de table](https://www.fgainza.fr/img/divers/pagination-github.jpg?style=centerme "Exemple de table obtenue")
 
-## Pour commencer
+## Contenu
 
 2 versions sont disponibles, au choix :
 
@@ -51,4 +51,4 @@ tableBootstrap($dbname, $table,);
 
 ## License
 
-Ce projet est sous licence ``exemple: GNU General Public License v3.0`` - voir le fichier [LICENSE](LICENSE) pour plus d'informations
+Ce projet est sous licence ``GNU General Public License v3.0`` - voir le fichier [LICENSE](LICENSE) pour plus d'informations
