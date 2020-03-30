@@ -1,11 +1,11 @@
 # Table Bootstrap pour affichage bdd avec pagination et tri
 
-[![shields](https://img.shields.io/badge/KoPaTiK-Agency-blue)](https://shields.io/)
+<p align="right"><img src="https://img.shields.io/badge/KoPaTiK-Agency-blue"><p align="right">
 
 Création d'une table bootstrap pour afficher l'extraction des données d'une table.  
 Avec une pagination automatique, le choix de l'affichage, et la possibilité de tri croissant et décroissant sur chacune des colonnes.
 
-<p align="center"><img src="https://www.fgainza.fr/img/divers/pagination-github.jpg"><p align="center">
+![Exemple de table](https://www.fgainza.fr/img/divers/pagination-github.jpg?style=centerme "Exemple de table obtenue")
 
 ## Contenu
 
