@@ -4,7 +4,7 @@
 
 Création d'une table bootstrap pour afficher l'extraction des données d'une table.  
 Avec une pagination automatique, le choix de l'affichage, et la possibilité de tri croissant et décroissant sur chacune des colonnes.
-<img src = "https://www.fgainza.fr/img/divers/pagination-github.jpg" title = "Exemple de table" alt = "Exemple de table obtenue">
+![Exemple de table](/img/divers/pagination-github.jpg "Exemple de table obtenue")
 
 ## Contenu
 
