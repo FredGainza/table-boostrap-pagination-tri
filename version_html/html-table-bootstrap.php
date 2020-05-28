@@ -43,6 +43,7 @@
         $cols;
 
         // Connexion à la base de données
+        $host;
         $dbname; 
         $user;
         $pass;
@@ -54,7 +55,7 @@
 
 
 try {
-    $dbh = new PDO('mysql:host=localhost;dbname=' . $dbname, $user, $pass);
+    $dbh = new PDO('mysql:host='.$host.';dbname=' . $dbname, $user, $pass);
 } catch (PDOException $e) {
     print "Erreur !: " . $e->getMessage() . "<br/>";
     die();

@@ -29,7 +29,7 @@
  * @param string $pass
  * @param null $cols
  */
-function tableBootstrap($dbname, $table, $limit_par_default = 25, $nb_autour = 5, $nb_par_page = [3, 5, 10, 25, 50, 100], $user = 'root', $pass = '', $cols=NULL)
+function tableBootstrap($dbname, $table, $limit_par_default = 25, $nb_autour = 5, $nb_par_page = [3, 5, 10, 25, 50, 100], $host = 'localhost', $user = 'root', $pass = '', $cols=NULL)
 {
     /******DEBUT DES ELEMENTS A RENSEIGNER ******/
     /* Nom de la table */
@@ -44,12 +44,13 @@ function tableBootstrap($dbname, $table, $limit_par_default = 25, $nb_autour = 5
     $cols;
     // $cols = [['id', 'Id'], ['firstname', 'Prénom'], ['lastname', 'Nom'], ['email', 'Email'], ['tel', 'Téléphone']];
     // Connexion à la base de données
+    $host;
     $dbname;
     $user;
     $pass;
 
     try {
-        $dbh = new PDO('mysql:host=localhost;dbname=' . $dbname, $user, $pass);
+        $dbh = new PDO('mysql:host='.$host.';dbname=' . $dbname, $user, $pass);
     } catch (PDOException $e) {
         print "Erreur !: " . $e->getMessage() . "<br/>";
         die();
